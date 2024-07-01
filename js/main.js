@@ -773,41 +773,43 @@ function progressIndicator() {
 document.addEventListener("DOMContentLoaded", function () {
   const projectData = [
     {
-      title: "Siremar",
-      description: "A platform designed for population registration and streamlining administrative processes and entitlements.\n\n<b>Tech Stack:</b> HTML, CSS, React.js, PHP, Laravel",
-      thumbnail: "img/siremar.jpg",
-      techStack: ["HTML", "CSS", "JavaScript"],
-      srcURL: "https://sxn3706.uta.cloud/",
+      title: "WonderChat",
+      description: "Ever since implementing Wonderchat on our site, I've seen up to a 70% reduction of customer support queries in my inbox.\n\n<b>Tech Stack:</b> LangChain, OpenAI, PineCone, Chatbot",
+      thumbnail: "img/projects/chatgpt.png",
+      techStack: ["LangChain", "OpenAI", "PineCone", "chatbot"],
+      srcURL: "https://wonderchat.io/",
     },
     {
-      title: "HOP",
+      title: "Flooring Ecommerce",
       description:
-        "Rentals Database Management System, that aims towards robust and reliable handling of vehicles and customers data, providing the best service possible.\n\n<b>Tech Stack:</b> MySQl, Oracle, Putty, Cloud",
-      thumbnail: "img/hop1.png",
-      techStack: ["MySQl, Oracle, Putty, Cloud"],
-      srcURL: "https://github.com/Shivamnirwani/CMD_Rentalsdb-Management",
+        "There are many factors to consider when choosing flooring for your home. This project will help you choose the right flooring for your home.\n\n<b>Tech Stack:</b> MongoDB, Express, ReactJS, NodeJS",
+      thumbnail: "img/projects/mern.png",
+      techStack: ["MongoDB, Express, React, Node"],
+      srcURL: "https://www.carpetone.com/",
+    },      
+    {
+      title: "Ecommerce Firebase",
+      description:
+        "I am working on an eCommerce designed in Figma to pass into code to improve my skills with new technologies to be able to get a job.\n\n<b>Tech Stack:</b> ReactJS, NextJS, Tailwind, Redux, Figma",
+      thumbnail: "img/projects/simply-unique.png",
+      techStack: ["ReactJS, NextLS, Tailwind, Redux, Figma"],
+      srcURL: "https://ecommerce-furniture-app.vercel.app/",
     },
     {
-      title: "RENO",
+      title: "Recipe Realm",
       description:
-        "Android application designed to simplify the job application process by providing real-time notifications for new job openings and recommendations based on user preferences.\n\n<b>Tech Stack:</b> Android Studio, Java",
-      thumbnail: "img/reno1.png",
-      techStack: ["Android Studio, Java"],
-      srcURL: "https://github.com/Shivamnirwani/Android-Application-RENO",
-    },    {
-      title: "Stock Prediction",
+        "A web app where you can post and share your own recipes!\n\n<b>Tech Stack:</b> ReactJS, NextJS, MUI, TypeScript, Express, MySQL",
+      thumbnail: "img/projects/reciple-realm.png",
+      techStack: ["ReactJS, NextLS, MUI, TypeScript, Express, MySQL"],
+      srcURL: "https://recipe-realm-j.vercel.app/",
+    },  
+    {
+      title: "SocialWriter",
       description:
-        "Data Analysis project based on deep learning, aimed at forecasting future market trends by analyzing distributed data on stocks.\n\n<b>Tech Stack:</b> Python, Machine Learning, Matplotlib",
-      thumbnail: "img/stocks.jpg",
-      techStack: ["Python, Machine Learning, Matplotlib"],
-      srcURL: "https://github.com/Shivamnirwani/Vaccine-Stocks-Analysis-Prediction",
-    },    {
-      title: "Threat Detection",
-      description:
-        "Analysing data from an onboard camera of a UAV and providing alerts about potential threats such as firearm, fast approaching cars, hazards.\n\n<b>Tech Stack:</b> CNN(Neural Network), Drone API",
-      thumbnail: "img/dji.jpg",
-      techStack: ["CNN(Neural Network), Drone API"],
-      srcURL: "https://github.com/Shivamnirwani/Threat_Detection-Python",
+        "SocialWriter is a social media platform where a community of writers can connect, share and inspire.\n\n<b>Tech Stack:</b>JavaScript, Express, NodeJS, PostgreSQL",
+      thumbnail: "img/projects/social-writer.png",
+      techStack: ["Python, Django, JavaScript, Bootstrap"],
+      srcURL: "https://socialwriter.pythonanywhere.com/",
     },
     // Add more project data objects here
   ];
